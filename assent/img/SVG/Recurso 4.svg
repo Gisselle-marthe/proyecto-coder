@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 903.61 906.2">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: #f40000;
+      }
+
+      .cls-3 {
+        fill: #f2b200;
+      }
+
+      .cls-4 {
+        fill: #ffc600;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-2" cx="431.05" cy="475.15" r="431.05" transform="translate(-209.73 443.97) rotate(-45)"/>
+    </clipPath>
+  </defs>
+  <g id="Capa_2-2" data-name="Capa 2">
+    <g>
+      <circle class="cls-3" cx="460.86" cy="442.75" r="442.75"/>
+      <circle class="cls-4" cx="442.75" cy="463.45" r="442.75"/>
+    </g>
+  </g>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <circle class="cls-2" cx="431.05" cy="475.15" r="431.05" transform="translate(-209.73 443.97) rotate(-45)"/>
+      <g class="cls-1">
+        <image width="6272" height="3584" transform="translate(-302.89 38.51) scale(.24)" xlink:href="../../../../../../Downloads/hamburguesa-explosiva-verduras-queso-derretido-sobre-fondo-negro-ia-generativa.jpg"/>
+      </g>
+    </g>
+  </g>
+</svg>
