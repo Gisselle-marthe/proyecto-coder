@@ -144,6 +144,31 @@ p {
   .add-to-cart:hover {
     background-color: #555;
   }
+/* ESTILOS DE LA PAGINA PRODUCTOS */
+
+  /* boton de whataspp */
+  /* BOTON FLOTANTE */
+
+.container-boton {
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 100px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+  }
+  
+  .container-boton:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+  .boton {
+    width: 70px;
+    transition: ease 1s;
+  }
   
 @media screen and (max-width: 1024px) {
   .product-cards {
@@ -154,5 +179,8 @@ p {
 @media screen and (max-width: 768px) {
   .product-cards {
     grid-template-columns: 1fr;
+  }
+  .boton{width: 30px;
+
   }
 }
