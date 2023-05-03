@@ -369,6 +369,9 @@ blockquote {
     grid-template-columns: 1fr;
   }
   .boton{width: 50px;
-
+  
+  }
+  .map{
+    max-width: 100%;
   }
 }
