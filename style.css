@@ -148,11 +148,9 @@ p {
 
   
   .container-banner-productos {
-    position: relative;
+   
     margin: auto;
     overflow: hidden;
-    width: 1055px;
-    height:auto;
     background: #1c1c1c;
     box-shadow: 5px 5px 15px rgba(104, 104, 104, 0.5);
     border-radius: 30px;
@@ -164,25 +162,32 @@ p {
     font-size: 1rem;
     color: #fcae40;
     letter-spacing: px;
+    text-align: left;
   }
   
   .titulo-h1-banner-producto {
     font-size: 2.5rem;
     color: #d3d3d3;
     margin-top: 15px;
+    text-align: left;
   }
   
   .titulo-h2-banner-producto {
     color: #f1a935;
     margin-top: 10px;
+    text-align: left;
+    font-size: 1rem;
   }
   
   .img-banner-producto {
-    width: 603px;
-    height: auto;
+    width: 19875px;
+    height: 100%;
     margin-top: -31px;
   }
-  
+  .card img {
+    max-width: 100%;
+    height: auto;
+}
   .slideshow-buttons {
     top: 70%;
     display: none;
@@ -204,7 +209,9 @@ p {
     font-size: 1rem;
     line-height: 1.6em;
     margin-right: 25px;
+    margin-top: 10px;
     text-align: justify;
+    
   }
   
   .button-banner-producto {
@@ -334,7 +341,7 @@ blockquote {
   .map{
     margin-top: 30px;
   }
-  /* boton de whataspp */
+  
   /* BOTON FLOTANTE */
 
 .container-boton {
@@ -374,4 +381,5 @@ blockquote {
   .map{
     max-width: 100%;
   }
+ 
 }
