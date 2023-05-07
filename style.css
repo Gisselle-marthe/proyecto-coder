@@ -357,7 +357,6 @@ blockquote {
 }
 
 .container:before {
-  content: "";
   font-size: 13em;
   position: absolute;
   left: -100px;
@@ -365,7 +364,6 @@ blockquote {
 }
 
 .container:after {
-  content: "";
   font-size: 13em;
   position: absolute;
   right: -80px;
