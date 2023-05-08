@@ -561,7 +561,7 @@ blockquote + b:first-letter {
 
 
 
-@media screen and (max-width: 1284px) {
+@media screen and (max-width: 1180px) {
   .product-cards {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -569,12 +569,16 @@ blockquote + b:first-letter {
   margin: 50px auto;
   width: 675px;
   }
+  .navtab li {
+    margin: 0 5px;
+  }
+  
   .navtab li a{
     padding: 7px 12px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .product-cards {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -610,6 +614,12 @@ blockquote + b:first-letter {
   .navtab{
     display: none;
   }
+  .navtab_mobile{
+    display: block;
+      }
+      .card-info{
+        width: calc(23.33% - -231px);
+      }
 }
 
 
