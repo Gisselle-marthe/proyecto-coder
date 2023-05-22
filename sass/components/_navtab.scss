@@ -13,8 +13,8 @@
   li a {
     display: block;
     padding: 10px 20px;
-    color: #e9e9e9;
-    background-color: #131313;
+    color: $white-2-text;
+    background-color: $bg-dark-2;
     text-decoration: none;
     border-radius: 5px;
     pointer-events: auto;
@@ -23,16 +23,16 @@
 
   li.active a {
     pointer-events: auto;
-    background-color: #ff9500;
-    color: #fff;
+    background-color: $bg-organge-1;
+    color: $white-text;
     cursor: pointer;
   }
   li.active a:hover {
-    background-color: #ff9500;
-    color: #fff;
+    background-color: $bg-organge-1;
+    color: $white-text;
   }
   li a:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: $bg-grey-1;
+    color: $white-text;
   }
 }

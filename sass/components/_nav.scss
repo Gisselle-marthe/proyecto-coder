@@ -1,20 +1,17 @@
-.nav__container__bg {
-  background: #0a0a0a;
-}
 
 .nav__link {
   font-family: "Roboto Flex", sans-serif;
-  color: rgb(238, 164, 60);
+  color: $yellow-2-text;
   font-style: bold;
   font-size: 1.5rem;
   &:hover {
-    color: #ffffff;
+    color: $white-text;
   }
 }
 
 .nav-brand--font {
   font-family: "Roboto Flex", sans-serif;
-  color: rgb(255, 255, 255);
+  color: $white-text;
   font-style: bold;
   font-size: 2rem;
 }

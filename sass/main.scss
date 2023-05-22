@@ -5,7 +5,7 @@
 @import "./components/navtab";
 @import "./components/btn_wp";
 @import "./components/banner_home";
-@import "./views/parallax";
+@import "./components/parallax";
 @import "./views/about";
 @import "./views/index";
 @import "./views/productos";
@@ -21,7 +21,7 @@ body {
   background-image: url("../assent/svg/SVG/SVG/Recurso\ 12.svg");
   background-repeat: repeat-y;
   background-size: 100%;
-  background-color: #0a0a0a;
+  background-color: $bg-black;
   margin: auto;
 }
 a {
@@ -37,7 +37,7 @@ p {
 }
 
 .setion__title {
-  color: #ececec;
+  color: $white-3-text;
   font-size: bold;
   text-align: center;
   margin: 20px;
@@ -59,8 +59,8 @@ p {
   bottom: 10px;
   right: 10px;
   padding: 10px;
-  background-color: #333;
-  color: #fff;
+  background-color: $bg-grey-1;
+  color: $white-text;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -68,7 +68,7 @@ p {
 }
 
 .btn__add__cart:hover {
-  background-color: #555;
+  background-color: $bg-grey-2;
 }
 
 .navtab_mobile {

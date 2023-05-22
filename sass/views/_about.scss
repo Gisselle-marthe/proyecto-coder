@@ -54,7 +54,7 @@ blockquote:first-letter {
 blockquote strong:first-child {
   margin-left: 8px;
   letter-spacing: 0;
-  color: #ececec;
+  color: $white-3-text;
 }
 
 blockquote strong:last-child {
@@ -75,7 +75,7 @@ blockquote + b {
   margin-top: 15px;
   font: 1.6em CallunaRegular;
   letter-spacing: 0.15em;
-  color: #fffcfc;
+  color: $white-text;
 }
 
 blockquote + b:first-letter {

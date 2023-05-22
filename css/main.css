@@ -3,8 +3,32 @@
   background-color: #0a0a0a;
 }
 
+.bg--black {
+  background-color: #0a0a0a;
+}
+
+.bg-orange {
+  background-color: #ff9500;
+}
+
+.bg-grey-1 {
+  background-color: #333;
+}
+
+.bg-grey-2 {
+  background-color: #555;
+}
+
 .text--primary {
   color: #f1a935;
+}
+
+.bg-whithe {
+  background-color: #ffffff;
+}
+
+.bg-whithe-2 {
+  background-color: #e9e9e9;
 }
 
 .card {
@@ -64,10 +88,6 @@
   background-color: #ffffff;
 }
 
-.nav__container__bg {
-  background: #0a0a0a;
-}
-
 .nav__link {
   font-family: "Roboto Flex", sans-serif;
   color: rgb(238, 164, 60);
@@ -75,12 +95,12 @@
   font-size: 1.5rem;
 }
 .nav__link:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 .nav-brand--font {
   font-family: "Roboto Flex", sans-serif;
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-style: bold;
   font-size: 2rem;
 }
@@ -295,7 +315,7 @@ blockquote + b {
   margin-top: 15px;
   font: 1.6em CallunaRegular;
   letter-spacing: 0.15em;
-  color: #fffcfc;
+  color: #fff;
 }
 
 blockquote + b:first-letter {
