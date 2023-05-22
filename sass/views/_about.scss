@@ -1,0 +1,96 @@
+/* ESTILOS DE LA PAGINA ABOUT */
+/* frase about us */
+.container-quote {
+  width: 590px;
+  margin: 30px auto;
+  position: relative;
+}
+
+blockquote {
+  width: 595px;
+  font: 2.65em CallunaRegular;
+  letter-spacing: 0.075em;
+  float: left;
+  padding: 45px 0 30px 25px;
+  margin: 0;
+  border-top: 2px dotted #858585;
+  border-bottom: 2px dotted #858585;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  color: #e1e1e1;
+}
+
+.container:before {
+  font-size: 13em;
+  position: absolute;
+  left: -100px;
+  color: #e1e1e1;
+}
+
+.container:after {
+  font-size: 13em;
+  position: absolute;
+  right: -80px;
+  top: 150px;
+  color: #666;
+}
+
+blockquote:first-line {
+  font: 1.85em "Sketch Block";
+  color: #fbb72c;
+}
+
+blockquote:first-letter {
+  font-size: 2.9em;
+  text-transform: lowercase;
+  float: left;
+  line-height: 0.52em;
+  margin-right: -18px;
+  position: relative;
+  z-index: 1;
+  color: #fbb72c;
+}
+
+blockquote strong:first-child {
+  margin-left: 8px;
+  letter-spacing: 0;
+  color: #ececec;
+}
+
+blockquote strong:last-child {
+  font: 2em "Museo 700";
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+blockquote em {
+  border-bottom: 2px dotted #c1c1c1;
+  padding-left: 15px;
+  color: #e1e1e1;
+}
+
+blockquote + b {
+  float: right;
+  margin-top: 15px;
+  font: 1.6em CallunaRegular;
+  letter-spacing: 0.15em;
+  color: #fffcfc;
+}
+
+blockquote + b:first-letter {
+  color: #fbb72c;
+  font-size: 1.3em;
+  font-style: italic;
+  letter-spacing: 0.29em;
+}
+
+@-moz-document url-prefix() {
+  blockquote:first-letter {
+    margin-top: -29px;
+  }
+}
+
+.map {
+  margin-top: 30px;
+}

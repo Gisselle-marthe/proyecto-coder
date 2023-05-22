@@ -1,0 +1,43 @@
+.parallax {
+  background-image: url("../assent/img/black-smooth-textured-paper-background.jpg");
+  background-size: cover;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+
+  &__background {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+  }
+
+  &__img {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  &__text {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    text-align: center;
+    color: $white-text;
+    transform: translateY(50%);
+    animation: fadeInUp 1s ease-out;
+    & h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    & p {
+      font-size: 1.2rem;
+    }
+  }
+}

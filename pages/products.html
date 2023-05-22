@@ -14,16 +14,16 @@
   <link rel="stylesheet" href="../fontawesome-free-6.4-2.0-web/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- mis estilos  -->
-  <link rel="stylesheet" href="../style.css">
+  <!-- <link rel="stylesheet" href="../style.css"> -->
+  <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
   <header>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-black nav-container_bg" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-black bg--dark" data-bs-theme="dark">
       <div class="container mt-5">
-        <a class="navbar-brand nav-brand-font" href="../index.html"> Carnivals
-        </a>
+        <a class="navbar-brand nav-brand--font" href="../index.html"> Carnivals</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,14 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link  nav-link-font nav-link-hover" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link  nav__link " aria-current="page" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-link-hover nav-link-font" href="./pages/products.html">Productos</a>
+              <a class="nav-link active  nav__link" href="./pages/products.html">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="./about.html">acerca de</a>
-
+              <a class="nav-link  nav__link" href="./about.html">acerca de</a>
             </li>
           </ul>
         </div>
@@ -46,31 +45,31 @@
     </nav>
   </header>
   <main>
-<!-- banner  -->
-
-   <div class="card mb-3 text-dark container-banner-productos" style="max-width: 1040px;">
-    <div class="row g-0">
-      <div class="col-md-7">
-        <img src="../assent/img/grilled-beef-hot-dog-with-ketchup-snack-generative-ai.jpg"
-          class="img-fluid rounded-start img-banner-producto" alt="...">
-      </div>
-      <div class="col-md-5">
-        <div class="card-body">
-          <p class="card-text">
-          <p class="p-banner-producto">Carnivals Food And Drinks</p>
-          <h1 class=" titulo-h1-banner-producto">Perro Beacon</h1>
-          <h2 class="titulo-h2-banner-producto">$ 18.000</h2>
-          <p class="desc"> Nuestro delicioso Beacon esta preparado por los mejores ingredites: Salchicha Ranchera,
-            Carne a la BBQ, Tocineta, Salami, Queso Gratinado, Maizebolla, pimentón a la grillé
-            Salsa de la casa Salsa ahumada Papa chongo.</small></p>
-            <button class="add-to-cart">Add to cart</button>
+    <!-- banner  -->
+    <div class="card mb-3 text-dark gs-constainer__banner" style="max-width: 1040px;">
+      <div class="row g-0">
+        <div class="col-md-7">
+          <img src="../assent/img/grilled-beef-hot-dog-with-ketchup-snack-generative-ai.jpg"
+            class="img-fluid rounded-start gs-constainer__banner__img" alt="...">
+        </div>
+        <div class="col-md-5">
+          <div class="card-body">
+            <p class="card-text">
+            <p class="gs-constainer__banner__parrafo">Carnivals Food And Drinks</p>
+            <h1 class="gs-constainer__banner__title__h1">Perro Beacon</h1>
+            <h2 class="gs-constainer__banner__title__h2">$ 18.000</h2>
+            <p class="gs-constainer__banner__description"> Nuestro delicioso Beacon esta preparado por los mejores
+              ingredites: Salchicha Ranchera,
+              Carne a la BBQ, Tocineta, Salami, Queso Gratinado, Maizebolla, pimentón a la grillé
+              Salsa de la casa Salsa ahumada Papa chongo.</small></p>
+            <button class="gs-constainer__banner__button">Add to cart</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-   
-  <!-- navtab para destok y tablets horizontales -->
-  <h1 class="h2-section">NUESTRAS CATEGORIAS</h1>
+
+    <!-- navtab para destok y tablets horizontales -->
+    <h1 class="setion__title">NUESTRAS CATEGORIAS</h1>
     <nav>
       <ul class="navtab">
         <li class="active"><a href="#">TODOS</a></li>
@@ -85,7 +84,7 @@
     </nav>
 
     <!-- filter para mobile -->
-    <nav class="navbar navbar-expand-lg bg-body-black nav-container_bg navtab_mobile" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-black bg--dark navtab_mobile" data-bs-theme="dark">
       <div class="container mt-5">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,206 +93,180 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active nav-link-font nav-link-hover" aria-current="page" href="#">Todos</a>
+              <a class="nav-link active nav__link " aria-current="page" href="#">Todos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  nav-link-hover nav-link-font" href="#">Hamburguesas</a>
+              <a class="nav-link   nav__link" href="#">Hamburguesas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="#">Perros Calientes</a>
+              <a class="nav-link  nav__link" href="#">Perros Calientes</a>
 
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="#">Salchipapas</a>
+              <a class="nav-link  nav__link" href="#">Salchipapas</a>
 
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="#">Chuzos Desgranados</a>
+              <a class="nav-link  nav__link" href="#">Chuzos Desgranados</a>
 
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="#">Picadas</a>
+              <a class="nav-link  nav__link" href="#">Picadas</a>
 
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="#">Asados</a>
+              <a class="nav-link  nav__link" href="#">Asados</a>
 
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="#">bebidas</a>
+              <a class="nav-link  nav__link" href="#">bebidas</a>
 
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="#">Combos y Promos</a>
+              <a class="nav-link  nav__link" href="#">Combos y Promos</a>
 
             </li>
           </ul>
         </div>
       </div>
     </nav>
-   <!-- productos-->
-   <section class="parallax-productos">
-    <div class="parallax-productos__background"></div>
-    <div class="parallax-productos__content">
-      <div class="parallax-productos__img">
+
+    <!-- productos-->
+    <section class="parallax">
+      <div class="parallax__background"></div>
+      <div class="parallax__content">
+        <div class="parallax__img"></div>
+        <div class="container__grid__card">
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Perro Classic</h3>
+
+            <a href=".../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" target="_self"
+              class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Hamburguesa Clasicc</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Salchipapa Sencilla</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Chuzo Carnivaslchick</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Constillas bbq 500gr</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Picada Carnavalera 500gr</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Perro Suizo</h3>
+
+            <button class="btn__add__cart">Ver Mas </button>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Hamburguesa Honolulu</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Chuzo Dos carnes</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Salchipapa Carnavalera + 2</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Churrazco 300gr</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Perro Super Carnivals</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Hamburguesa Duplex</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Perro Beacon</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Salchipapa Fusion</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+          <div class="card">
+            <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
+            <h3>Chuzo Premium</h3>
+
+            <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
+          </div>
+        </div>
       </div>
-      <div class="product-cards">
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Perro Classic</h3>
+    </section>
+    <div class="container_card__info">
+      <div class="card__info">
+        <i class="fa-solid fa-hotdog"></i>
+        <h3>Promo perro Classic</h3>
+        <p> perro classic + Papas a la francesa + bebida.</p>
+        <h2>$ 9.000</h2>
 
-          <a href=".../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Hamburguesa Clasicc</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Salchipapa Sencilla</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Chuzo Carnivaslchick</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Constillas bbq 500gr</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Picada Carnavalera 500gr</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Perro Suizo</h3>
-
-          <button class="add-to-cart">Ver Mas </button>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Hamburguesa Honolulu</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Chuzo Dos carnes</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Salchipapa Carnavalera + 2</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Churrazco 300gr</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Perro Super Carnivals</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Hamburguesa Duplex</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Perro Beacon</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Salchipapa Fusion</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-        <div class="card">
-          <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" alt="Product 1">
-          <h3>Chuzo Premium</h3>
-
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
-        </div>
-  </section>
-  <div class="cardsinfo-container">
-    <div class="card-info">
-      <i class="fa-solid fa-hotdog"></i>
-      <h3>Promo perro Classic</h3>
-      <p> perro classic + Papas a la francesa + bebida.</p>
-      <h2>$ 9.000</h2>
-    
-    </div>
-    <div class="card-info">
-      <i class="fa-solid fa-burger"></i>
-      <h3>Promo Hamburguesa Classic</h3>
-      <p> hamburguesa Classic + Papas a la francesa + bebida.</p>
-      <h2>$ 15.000</h2>
-    </div>
-    <div class="card-info">
-      <i class="fa-solid fa-bowl-food"></i>
-      <h3>Promo Salchipapa Sencilla</h3>
-      <p>Salchipapa Sencilla + Bebida</p>
-      <h2>$ 13.000</h2>
-    </div>
-  </div>
-   <!-- carrusel -->
-  <!-- <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../assent/img/hamburguesa-explosiva-verduras-queso-derretido-sobre-fondo-negro-ia-generativa.jpg" class="d-block w-100" alt="...">
       </div>
-      <div class="carousel-item">
-        <img src="../assent/img/hamburguesas-papas-fritas-taza-salsa-bandeja-madera.jpg" class="d-block w-100" alt="...">
+      <div class="card__info">
+        <i class="fa-solid fa-burger"></i>
+        <h3>Promo Hamburguesa Classic</h3>
+        <p> hamburguesa Classic + Papas a la francesa + bebida.</p>
+        <h2>$ 15.000</h2>
       </div>
-      <div class="carousel-item">
-        <img src="../assent/img/high-angle-three-hot-dogs-with-salad-sauce.jpg" class="d-block w-100" alt="...">
+      <div class="card__info">
+        <i class="fa-solid fa-bowl-food"></i>
+        <h3>Promo Salchipapa Sencilla</h3>
+        <p>Salchipapa Sencilla + Bebida</p>
+        <h2>$ 13.000</h2>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  -->
-  <footer>
-    <small class="footer__small">&copy; 2023 | CARNIVALS, todos los derechos reservados.</small>
-  </footer>
 
+    <footer>
+      <small class="text--primary">&copy; 2023 | CARNIVALS, todos los derechos reservados.</small>
+    </footer>
   </main>
 </body>
-<!-- ICONO FLOTANTE DE WHATSAPP -->
-<div class="container-boton">
+<div class="btn__wp">
   <a href="https://api.whatsapp.com/send?phone=3045365281" target="_blank">
-    <img class="boton" src="../assent/icons/SVG/Recurso 1.svg" alt="">
+    <img class="btn__wp__icon" src="../assent/icons/SVG/Recurso 1.svg" alt="">
   </a>
 </div>
 

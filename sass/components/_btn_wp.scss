@@ -1,0 +1,20 @@
+.btn__wp {
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 100px;
+  right: 25px;
+  padding: 25px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+
+  &__icon {
+    width: 70px;
+    transition: ease 1s;
+  }
+}

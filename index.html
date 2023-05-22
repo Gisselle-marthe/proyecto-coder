@@ -14,15 +14,16 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
   <!-- mis estilos  -->
-  <link rel="stylesheet" href="./style.css">
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
   <header>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-black nav-container_bg" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-black bg--dark" data-bs-theme="dark">
       <div class="container mt-5">
-        <a class="navbar-brand nav-brand-font" href="#"> Carnivals
+        <a class="navbar-brand nav-brand--font" href="#"> Carnivals
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +32,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active nav-link-font nav-link-hover" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active nav__link " aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="./pages/products.html">Productos</a>
+              <a class="nav-link  nav__link" href="./pages/products.html">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover nav-link-font" href="./pages/about.html">acerca de</a>
+              <a class="nav-link  nav__link" href="./pages/about.html">acerca de</a>
 
             </li>
           </ul>
@@ -50,81 +51,79 @@
     <section class="parallax">
       <div class="parallax__background"></div>
       <div class="parallax__content">
-        <div class="parallax__img">
-        </div>
+        <div class="parallax__img"></div>
         <div class="container mt-5 justify-content-center">
-          <div class="row ">
+          <div class="row gs__banner">
             <div class="col-md-6 mt-2">
               <img src="./assent/img/hamburguesa-explosiva-verduras-queso-derretido-sobre-fondo-negro-ia-generativa.jpg"
-                class="img-fluid img-banner" alt="Imagen">
+                class="img-fluid gs__banner__img" alt="Imagen">
             </div>
             <div class="col-md-6 mt-4 align-items-center">
-
-              <h2 class="titulo-h1-banner-home">Carnavalera</h2>
-              <p class="p-banner-home mt-1">Productos Premium</p>
-              <p class="desc-banner-home">
+              <h2 class="gs__banner__h2">Carnavalera</h2>
+              <p class="gs__banner__p mt-1">Productos Premium</p>
+              <p class="gs__banner__p--desc">
                 Una hamburguesa deliciosa y original es un platillo que combina los sabores perfectos para
                 crear una experiencia culinaria única e inolvidable.
                 Nuestra carnavalera esta preparada con los mayores estandares de calidad: desde el pan
                 debidamente seleccionado, las proteinas altamente jugosas, vegetales frescos y salas unicas y
                 exclusivas de nuestra sazon.</p>
-              <a href="#" class="btn btn-warning bt-bnr-home btn-banner-home">Comprar</a>
+              <a href="#" class="btn btn-warning bt-bnr-home btn__buy">Comprar</a>
             </div>
           </div>
         </div>
-
+      </div>
     </section>
     <!-- seccion de cars de productos -->
     <section>
-      <h1 class="titulo-h2-productss">NUESTRAS CATEGORIAS</h1>
-      <div class="product-cards">
+      <h1 class="setion__title">NUESTRAS CATEGORIAS</h1>
+      <div class="container__grid__card">
         <div class="card">
           <img src="./assent/img/grilled-beef-hot-dog-with-ketchup-snack-generative-ai.jpg" alt="Product 1">
           <h3>PERROS CALIENTES</h3>
 
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
+          <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
         </div>
         <div class="card">
           <img src="./assent/img/front-view-burger-stand.jpg" alt="Product 1">
           <h3>HAMBURGUESAS</h3>
 
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
+          <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
         </div>
         <div class="card">
           <img src="./assent/img/Captura de pantalla 2023-05-07 a la(s) 10.15.26 p.m..png" alt="Product 1">
           <h3>SALCHIPAPA</h3>
 
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
+          <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
         </div>
         <div class="card">
           <img src="./assent/img/Captura de pantalla 2023-05-07 a la(s) 10.22.56 p.m..png" alt="Product 1">
           <h3>CHUZOS</h3>
 
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
+          <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
         </div>
         <div class="card">
           <img src="./assent/img/Captura de pantalla 2023-05-07 a la(s) 10.24.27 p.m..png" alt="Product 1">
           <h3>ASADOS</h3>
 
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
+          <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
         </div>
         <div class="card">
           <img src="./assent/img/Captura de pantalla 2023-05-07 a la(s) 10.28.50 p.m..png" alt="Product 1">
           <h3>PICADAS</h3>
 
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
+          <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
         </div>
         <div class="card">
           <img src="./assent/img/Captura de pantalla 2023-05-07 a la(s) 10.33.31 p.m..png" alt="Product 1">
           <h3>BEBIDAS</h3>
 
-          <button class="add-to-cart">Ver Mas </button>
+          <button class="btn__add__cart">Ver Mas </button>
         </div>
         <div class="card">
           <img src="./assent/img/still-life-delicious-american-hamburger.jpg" alt="Product 1">
           <h3>COMBOS Y PROMOS</h3>
 
-          <a href="./pages/products.html" target="_self" class="add-to-cart">Ver Mas </a>
+          <a href="./pages/products.html" target="_self" class="btn__add__cart">Ver Mas </a>
         </div>
     </section>
     <!-- seccion de cards de info + parallax -->
@@ -133,37 +132,38 @@
       <div class="parallax__content">
         <div class="parallax__img">
         </div>
-        <div class="cardsinfo-container">
-          <div class="card-info">
-            <i class="fas fa-rocket"></i>
-            <h3>Velocidad</h3>
-            <p>Nuestro servicio de delivery es rápido y confiable.</p>
-          </div>
-          <div class="card-info">
-            <i class="fa-solid fa-hand-holding-heart"></i>
-            <h3>calidad</h3>
-            <p>Nuestros ingredientes cumplen los mayores estadares de calidad</p>
-          </div>
-          <div class="card-info">
-            <i class="fas fa-hand-holding-usd"></i>
-            <h3>Ahorro</h3>
-            <p>Ofrecemos precios competitivos para tu presupuesto.</p>
-          </div>
+      </div>
+      <div class="container_card__info">
+        <div class="card__info">
+          <i class="fas fa-rocket"></i>
+          <h3>Velocidad</h3>
+          <p>Nuestro servicio de delivery es rápido y confiable.</p>
         </div>
+        <div class="card__info">
+          <i class="fa-solid fa-hand-holding-heart"></i>
+          <h3>calidad</h3>
+          <p>Nuestros ingredientes cumplen los mayores estadares de calidad</p>
+        </div>
+        <div class="card__info">
+          <i class="fas fa-hand-holding-usd"></i>
+          <h3>Ahorro</h3>
+          <p>Ofrecemos precios competitivos para tu presupuesto.</p>
+        </div>
+      </div>
     </section>
 
   </main>
-  
-    <footer>
-      <small class="footer__small">&copy; 2023 | CARNIVALS, todos los derechos reservados.</small>
-    </footer>
 
- 
+  <footer>
+    <small class="text--primary">&copy; 2023 | CARNIVALS, todos los derechos reservados.</small>
+  </footer>
+
+
 </body>
 <!-- ICONO FLOTANTE DE WHATSAPP -->
-<div class="container-boton">
+<div class="btn__wp">
   <a href="https://api.whatsapp.com/send?phone=3045365281" target="_blank">
-    <img class="boton" src="./assent/icons/SVG/Recurso 1.svg" alt="">
+    <img class="btn__wp__icon" src="./assent/icons/SVG/Recurso 1.svg" alt="">
   </a>
 </div>
 

@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gisselle-marthe/proyecto-coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gisselle-marthe/proyecto-coder/issues"
+  },
+  "homepage": "https://github.com/Gisselle-marthe/proyecto-coder#readme",
+  "dependencies": {
+    "saas": "^1.0.0",
+    "sass": "^1.62.1"
+  }
+}

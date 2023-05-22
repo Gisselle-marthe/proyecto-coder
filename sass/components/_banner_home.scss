@@ -1,0 +1,39 @@
+/* seccion de foto + descripcion de producto */
+
+.gs__banner {
+  &__p {
+    font-size: 1rem;
+    color: #fcae40;
+    letter-spacing: 2px;
+    margin-left: 12px;
+  }
+
+  &__h2 {
+    font-size: 2.5rem;
+    color: #f9f9f9;
+    margin-left: 12px;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(228, 227, 227, 0.5);
+  }
+  &__p--desc {
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: auto;
+    color: #dcd7d7;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    margin-left: 12px;
+    text-align: justify;
+    overflow: auto;
+  }
+}
+
+.btn__buy {
+  margin: 12px;
+}

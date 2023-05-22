@@ -1,0 +1,191 @@
+@import "./utils/variables";
+@import "./utils/util_colors";
+@import "./components/card";
+@import "./components/nav";
+@import "./components/navtab";
+@import "./components/btn_wp";
+@import "./components/banner_home";
+@import "./views/parallax";
+@import "./views/about";
+@import "./views/index";
+@import "./views/productos";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Flex&family=Roboto:wght@100;500;700&display=swap");
+
+body {
+  background-image: url("../assent/svg/SVG/SVG/Recurso\ 12.svg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-color: #0a0a0a;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.setion__title {
+  color: #ececec;
+  font-size: bold;
+  text-align: center;
+  margin: 20px;
+}
+
+.container__grid__card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr;
+  gap: 40px;
+  overflow: hidden;
+  margin: 50px auto;
+  width: 1075px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__add__cart {
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn__add__cart:hover {
+  background-color: #555;
+}
+
+.navtab_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .container__grid__card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    overflow: hidden;
+    margin: 50px auto;
+    width: 675px;
+  }
+  .navtab li {
+    margin: 0 5px;
+  }
+
+  .navtab li a {
+    padding: 7px 12px;
+  }
+  .parallax {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .container__grid__card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 465px;
+  }
+  .btn__wp__icon {
+    width: 50px;
+  }
+  .map {
+    max-width: 100%;
+  }
+  .parallax {
+    width: 100%;
+    height: auto;
+  }
+
+  .parallax__background {
+    transform: none;
+  }
+
+  .parallax__content {
+    transform: none;
+    padding: 30px;
+  }
+
+  .parallax__text h2 {
+    font-size: 1.5rem;
+  }
+
+  .parallax__text p {
+    font-size: 1rem;
+  }
+  .navtab {
+    display: none;
+  }
+  .navtab_mobile {
+    display: block;
+  }
+  .card__info {
+    width: calc(23.33% - -231px);
+  }
+  .gs__banner__img-producto {
+    margin-top: -31px;
+    height: 120%;
+  }
+  .gs__banner__img {
+    margin-top: 50%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .container__grid__card {
+    grid-template-columns: 1fr;
+    width: 265px;
+  }
+  .btn__wp__icon {
+    width: 40px;
+  }
+  .map {
+    max-width: 100%;
+  }
+  .parallax {
+    width: 100%;
+    height: auto;
+  }
+  .parallax__background {
+    transform: none;
+  }
+  .parallax__content {
+    transform: none;
+    padding: 30px;
+  }
+  .parallax__text h2 {
+    font-size: 1.5rem;
+  }
+  .parallax__text p {
+    font-size: 1rem;
+  }
+  .card__info {
+    width: calc(13.33% - -231px);
+  }
+  .navtab {
+    display: none;
+  }
+  .navtab_mobile {
+    display: block;
+  }
+  .gs__banner__img {
+    margin-top: 2px;
+  }
+}
