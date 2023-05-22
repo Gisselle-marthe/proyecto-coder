@@ -238,8 +238,6 @@
   font-size: 1.2rem;
 }
 
-/* ESTILOS DE LA PAGINA ABOUT */
-/* frase about us */
 .container-quote {
   width: 590px;
   margin: 30px auto;
@@ -277,7 +275,7 @@ blockquote {
 
 blockquote:first-line {
   font: 1.85em "Sketch Block";
-  color: #fbb72c;
+  color: rgb(238, 164, 60);
 }
 
 blockquote:first-letter {
@@ -288,13 +286,13 @@ blockquote:first-letter {
   margin-right: -18px;
   position: relative;
   z-index: 1;
-  color: #fbb72c;
+  color: rgb(238, 164, 60);
 }
 
 blockquote strong:first-child {
   margin-left: 8px;
   letter-spacing: 0;
-  color: #ececec;
+  color: #e9e9e9;
 }
 
 blockquote strong:last-child {
@@ -319,7 +317,7 @@ blockquote + b {
 }
 
 blockquote + b:first-letter {
-  color: #fbb72c;
+  color: rgb(238, 164, 60);
   font-size: 1.3em;
   font-style: italic;
   letter-spacing: 0.29em;
@@ -525,6 +523,12 @@ p {
   .gs__banner__img {
     margin-top: 50%;
   }
+  blockquote {
+    display: none;
+  }
+  .container-quote {
+    display: none;
+  }
 }
 @media screen and (max-width: 670px) {
   .container__grid__card {
@@ -565,5 +569,11 @@ p {
   }
   .gs__banner__img {
     margin-top: 2px;
+  }
+  blockquote {
+    display: none;
+  }
+  .container-quote {
+    display: none;
   }
 }

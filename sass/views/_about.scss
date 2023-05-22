@@ -1,5 +1,4 @@
-/* ESTILOS DE LA PAGINA ABOUT */
-/* frase about us */
+
 .container-quote {
   width: 590px;
   margin: 30px auto;
@@ -17,14 +16,14 @@ blockquote {
   border-bottom: 2px dotted #858585;
   -webkit-transform: rotate(-3deg);
   -moz-transform: rotate(-3deg);
-  color: #e1e1e1;
+  color: $white-5-text;
 }
 
 .container:before {
   font-size: 13em;
   position: absolute;
   left: -100px;
-  color: #e1e1e1;
+  color: $white-5-text;
 }
 
 .container:after {
@@ -37,7 +36,7 @@ blockquote {
 
 blockquote:first-line {
   font: 1.85em "Sketch Block";
-  color: #fbb72c;
+  color: $yellow-2-text;
 }
 
 blockquote:first-letter {
@@ -48,26 +47,26 @@ blockquote:first-letter {
   margin-right: -18px;
   position: relative;
   z-index: 1;
-  color: #fbb72c;
+  color: $yellow-2-text;
 }
 
 blockquote strong:first-child {
   margin-left: 8px;
   letter-spacing: 0;
-  color: $white-3-text;
+  color: $white-2-text;
 }
 
 blockquote strong:last-child {
   font: 2em "Museo 700";
   text-transform: uppercase;
   letter-spacing: 0;
-  color: #fff;
+  color: $white-text;
 }
 
 blockquote em {
   border-bottom: 2px dotted #c1c1c1;
   padding-left: 15px;
-  color: #e1e1e1;
+  color: $white-5-text;
 }
 
 blockquote + b {
@@ -79,7 +78,7 @@ blockquote + b {
 }
 
 blockquote + b:first-letter {
-  color: #fbb72c;
+  color: $yellow-2-text;
   font-size: 1.3em;
   font-style: italic;
   letter-spacing: 0.29em;
