@@ -1,40 +1,18 @@
+// utils
 @import "./utils/variables";
 @import "./utils/util_colors";
+@import "./utils/global";
+// components
 @import "./components/card";
 @import "./components/nav";
 @import "./components/navtab";
 @import "./components/btn_wp";
 @import "./components/banner_home";
 @import "./components/parallax";
+// views
 @import "./views/about";
 @import "./views/index";
 @import "./views/productos";
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Flex&family=Roboto:wght@100;500;700&display=swap");
-
-body {
-  background-image: url("../assent/svg/SVG/SVG/Recurso\ 12.svg");
-  background-repeat: repeat-y;
-  background-size: 100%;
-  background-color: $bg-black;
-  margin: auto;
-}
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
-p {
-  line-height: 1.5;
-}
 
 .setion__title {
   color: $white-3-text;
